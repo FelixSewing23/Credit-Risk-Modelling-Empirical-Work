@@ -1,0 +1,22 @@
+# Python 3.14. Install with: pip install -r requirements.txt
+#
+# optbinning 0.20 breaks under scikit-learn 1.8 (check_array's force_all_finite keyword was
+# removed). The fix already lives in the second cell of 03_CategorizationSelection.ipynb and
+# runs before optbinning is imported, so this pin is fine as long as that cell stays in place.
+
+pandas==2.3.3
+numpy==2.4.1
+pyarrow==23.0.1
+matplotlib==3.10.8
+seaborn==0.13.2
+scikit-learn==1.8.0
+statsmodels==0.14.6
+scipy==1.17.1
+requests==2.32.5
+openpyxl==3.1.5
+optbinning==0.20.0
+mlxtend==0.25.0
+shap==0.52.0
+pypdf==6.16.2
+jupyterlab==4.5.6
+notebook==7.5.5

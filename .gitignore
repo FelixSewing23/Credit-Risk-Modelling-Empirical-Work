@@ -1,0 +1,5 @@
+# This folder is a plain data handover, not a git repo, but keep this in place in case it
+# ever gets initialised or nested under one: Input/ and Output/ are large (~830 MB together)
+# and are meant to travel as files (Drive / Cloud / a direct copy), never as a git commit.
+Input/
+Output/
